@@ -1,0 +1,17 @@
+Ping has started…
+
+PING www.google.com (172.217.164.228): 56 data bytes
+64 bytes from 172.217.164.228: icmp_seq=0 ttl=55 time=24.729 ms
+64 bytes from 172.217.164.228: icmp_seq=1 ttl=55 time=20.867 ms
+64 bytes from 172.217.164.228: icmp_seq=2 ttl=55 time=17.321 ms
+64 bytes from 172.217.164.228: icmp_seq=3 ttl=55 time=19.339 ms
+64 bytes from 172.217.164.228: icmp_seq=4 ttl=55 time=19.759 ms
+64 bytes from 172.217.164.228: icmp_seq=5 ttl=55 time=17.273 ms
+64 bytes from 172.217.164.228: icmp_seq=6 ttl=55 time=24.537 ms
+64 bytes from 172.217.164.228: icmp_seq=7 ttl=55 time=17.930 ms
+64 bytes from 172.217.164.228: icmp_seq=8 ttl=55 time=18.564 ms
+64 bytes from 172.217.164.228: icmp_seq=9 ttl=55 time=25.174 ms
+
+--- www.google.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 17.273/20.549/25.174/2.982 ms

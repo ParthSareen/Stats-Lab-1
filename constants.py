@@ -1,0 +1,1 @@
+PATH_TO_DATA = 'data/test_data.txt'
