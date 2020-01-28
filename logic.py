@@ -22,7 +22,7 @@ def plot_histogram(data_list):
     sigma = math.sqrt(variance)
 
     fig, ax = plt.subplots()
-    num_bins = 100
+    num_bins = 20
     n, bins, patches = ax.hist(x, num_bins, density=1)
 
     y = ((1 / (np.sqrt(2 * np.pi) * sigma)) * np.exp(-0.5 * (1 / sigma * (bins - mu))**2))
@@ -32,13 +32,4 @@ def plot_histogram(data_list):
     ax.set_ylabel('Relative Frequency')
     ax.set_title(r'Histogram of Pinging Eduroam or smth')
     fig.tight_layout()
-    plt.show()
-
-def plot_curve(data_list):
-    x = np.array(data_list)
-
-    mean = np.mean(x)
-    variance = np.var(x, dtype=np.float64)
-    sigma = math.sqrt(variance)
-    plt.plot(x, stats.norm.pdf(x, mean, sigma))
     plt.show()

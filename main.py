@@ -3,7 +3,12 @@ from constants import *
 from logic import *
 
 def main():
-	data = open_file(PATH_TO_DATA)
+	debug = input('Debug? ')
+	if not debug:
+		path = PATH_TO_DATA
+	else:
+		path = PATH_TO_DATA_TEST
+	data = open_file(path)
 	data_list = organize_data(data)
 	print(data_list)
 	plot_histogram(data_list)
